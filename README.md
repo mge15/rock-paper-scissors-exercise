@@ -54,9 +54,9 @@ user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
 
 ## Validating User Inputs
 
-The application should then ensure that what the user input is a valid option ("rock", "paper", or "scissors"). If the selection is invalid, the program should fail gracefully by displaing a friendly message to the user, and preventing further program execution. The program should not try to further process an invalid input, as it may lead to runtime errors.
+The application should then ensure that what the user input is a valid option ("rock", "paper", or "scissors"). If the selection is invalid, the program should fail gracefully by displaying a friendly message to the user, and preventing further program execution. The program should not try to further process an invalid input, as it may lead to runtime errors.
 
-Also want to ensure that variations of the options are allowed. Display the choice made or the fail message after validation.
+You also want to ensure that variations of the options are allowed (i.e. mix of upper and lower case letters). Display the choice made or the fail message after validation.
 
 ```sh
 #make the user_choice all lower case so it is consistent with options
@@ -64,9 +64,9 @@ user_choice = user_choice.lower()
 
 #validate the user selection
 
-r = "Rock"
-p = "Paper"
-s = "Scissors"
+r = "rock"
+p = "paper"
+s = "scissors"
 
 #make a list that contains all of the options
 
@@ -90,7 +90,7 @@ First need to import the random package to randomize the computer selection
 import random
 ```
 
-Then you can select one of the options from the list and display the result.
+Then you can randomly select one of the options from the list and display the result.
 
 ```sh
 comp = random.choice(options)
