@@ -15,9 +15,11 @@ cd rock-paper-scissors-exercise
 ```
 Use the text editor to create a file in that repo called "game.py," and then place the following contents inside:
 
+```sh
 #game.py
 
 print("Rock, Paper, Scissors, Shoot!")
+```
 
 ## Environment Setup
 
