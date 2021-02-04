@@ -114,10 +114,10 @@ print("-------------------")
 
 The application should compare the user's selection to the computer player's selection, and determine which is the winner. The following logic should govern that determination:
 
-Rock beats Scissors
-Paper beats Rock
-Scissors beats Paper
-Rock vs Rock, Paper vs Paper, and Scissors vs Scissors each results in a "tie"
+1. Rock beats Scissors
+2. Paper beats Rock
+3. Scissors beats Paper
+4. Rock vs Rock, Paper vs Paper, and Scissors vs Scissors each results in a "tie"
 
 Once the winner is determined, display the pairing and the ultimate result. Then print a farewell message
 
